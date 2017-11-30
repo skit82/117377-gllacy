@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="utf-8">
-		<title>Глейси</title>
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<title>Глейси</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
 <body>
 	<input type="radio" id="btn-1" name="toggle" checked>
 	<input type="radio" id="btn-2" name="toggle">
@@ -20,10 +20,10 @@
 						<nav class="main-navigation">
 							<ul class="site-navigation">
 								<li class="menu-navigation">
-									<a class="catalog-menu" href="catalog.html">Каталог</a>
+									<a class="catalog-menu" href="#">Каталог</a>
 									<ul class="new-items">
 										<li><a class="first-item" href="#">Новинки</a></li>
-										<li><a class="ice-item" href="#">Сливочное</a></li>
+										<li><a class="ice-item" href="catalog.html">Сливочное</a></li>
 										<li><a class="ice-item" href="#">Щербеты</a></li>
 										<li><a class="ice-item" href="#">Фруктовый лед</a></li>
 										<li><a class="last-item" href="#">Мелорин</a></li>
@@ -40,32 +40,36 @@
 						<ul class="user-navigation">
 							<li class="search">
 								<a class="search-link" href="#"></a>
-								<form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+								<form class="search-form" action="https://echo.htmlacademy.ru" method="get">
 									<label for="search-field"></label>
-									<input type="text" name="search" id="search-field" placeholder="Что ищем?">
+									<input class="search-input" type="text" name="search" id="search-field" placeholder="Что ищем?">
+									<button class="btn-search" type="submit">
+									</button>
 								</form>
 							</li>
-							<li>
+							<li class="login">
 								<a class="login-link" href="#">Вход</a>
 								<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
 									<label for="email-field"></label>
-									<input type="text" name="email" id="email-field" placeholder="Электронная почта">
+									<input class="login-input" type="text" name="email" id="email-field" placeholder="Электронная почта">
 									<label for="password-field"></label>
-									<input type="password" name="password" id="password-field" placeholder="Пароль">
-									<button type="submit" value="Войти">Войти</button>
+									<input class="password-input" type="password" name="password" id="password-field" placeholder="Пароль">
+									<button class="btn-login" type="submit" value="Войти">Войти</button>
+									<p class="login-footer">
+										<a href="#">Забыли пароль?</a>
+										<a href="#">Новая регистрация</a>
+									</p>
 								</form>
-								<p class="login-footer">
-									<a href="#">Забыли пароль?</a>
-									<a href="#">Новая регистрация</a>
-								</p>
 							</li>
-							<li><a class="basket-item" href="#">Пусто</a></li>
+							<li class="basket">
+								<a class="basket-item" href="#">Пусто</a>
+							</li>
 						</ul>
 					</div>
 					<div class="header-content">
 						<p class="header-content-time">С 10 до 20, ежедневно</p>
 						<span class="visually-hidden">Телефон для заказов:</span>
-						<a class="header-content-phone" href="tel:+78124502525">8 812 450 25 25</a>	
+						<a class="header-content-phone" href="tel:+78124502525">8 812 450-25-25</a>	
 					</div>
 				</header>
 			</div>
@@ -283,7 +287,7 @@
 			</footer>
 		</div>
 		<div class="modal-overlay"></div>
-  		<div class="modal modal-name">
+			<div class="modal modal-name">
 				<h2>Мы обязательно вам ответим!</h2>
 				<form class="name-form" action="https://echo.htmlacademy.ru" method="post">
 					<p>

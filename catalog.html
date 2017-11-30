@@ -34,13 +34,28 @@
 					</ul>
 				</nav>
 				<ul class="user-navigation">
-					<li>
-						<a class="search" href="#"></a>
+					<li class="search">
+						<a class="search-link" href="#"></a>
+						<form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+							<label for="search-field"></label>
+							<input class="search-input" type="text" name="search" id="search-field" placeholder="Что ищем?">
+						</form>
 					</li>
-					<li>
+					<li class="login">
 						<a class="login-link" href="#">Вход</a>
+						<form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+							<label for="email-field"></label>
+							<input class="login-input" type="text" name="email" id="email-field" placeholder="Электронная почта">
+							<label for="password-field"></label>
+							<input class="password-input" type="password" name="password" id="password-field" placeholder="Пароль">
+							<button class="btn-login" type="submit" value="Войти">Войти</button>
+							<p class="login-footer">
+								<a href="#">Забыли пароль?</a>
+								<a href="#">Новая регистрация</a>
+							</p>
+						</form>
 					</li>
-					<li>
+					<li class="basket">
 						<a class="basket-item" href="#">2 товара</a>
 						<section class="card">
 								<div class="card-basket">
@@ -74,7 +89,7 @@
 			<div class="header-content">
 					<p class="header-content-time">С 10 до 20, ежедневно</p>
 					<span class="visually-hidden">Телефон для заказов:</span>
-					<a class="header-content-phone" href="tel:+78124502525">8 812 450 25 25</a> 
+					<a class="header-content-phone" href="tel:+78124502525">8 812 450-25-25</a> 
 			</div>
 		</header>
 	</div>
