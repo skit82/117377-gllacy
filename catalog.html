@@ -48,42 +48,50 @@
 							<input class="login-input" type="text" name="email" id="email-field" placeholder="Электронная почта">
 							<label for="password-field"></label>
 							<input class="password-input" type="password" name="password" id="password-field" placeholder="Пароль">
-							<button class="btn-login" type="submit" value="Войти">Войти</button>
+							<button class="button btn-login" type="submit" value="Войти">Войти</button>
 							<p class="login-footer">
 								<a href="#">Забыли пароль?</a>
 								<a href="#">Новая регистрация</a>
 							</p>
 						</form>
 					</li>
-					<li class="basket">
+					<li class="basket cart">
 						<a class="basket-item" href="#">2 товара</a>
-						<section class="card">
-								<div class="card-basket">
-									<button class="card-close">Закрыть</button>
-									<p>
-										Пломбир с апельсиновым джемом
-									</p>
-									<p>
-										1,5 кг х 200 руб
-									</p>
-									<p>300 руб</p>
-								</div>
-								<div class="card-basket">
-									<button class="card-close">Закрыть</button>
-									<p>
-										Клубничный пломбир с присыпкой из белого шоколада
-									</p>
-									<p>
-										1,5 кг х 300 руб
-									</p>
-									<p>450 руб</p>
-									<span class="total-amount">Итого: 750 руб.</span>
-									<a class="card-btn" href="">
-										Oформить заказ
-									</a>
-								</div>
-							</section>
-					</li>
+						<div class="cart-form">
+              <table>
+                <tr>
+                  <td class="cart-close-top">
+                  <button class="modal-delete" type="button">Удалить</button>
+                  </td>
+                  <td class="cart-image"><img src="img/cart-orange.jpg" width="33" height="33" alt="мороженое"></td>
+                  <td class="cart-article">Пломбир с апельсиновым джемом</td>
+                  <td class="cart-value">1,5</td>
+                  <td class="cart-dimension">кг</td>
+                  <td class="cart-operator">х</td>
+                  <td class="cart-cost">200</td>
+                  <td class="cart-ruble">руб.</td>
+                  <td class="cart-result">300</td>
+                  <td class="cart-ruble-total">руб.</td>
+                </tr>
+                <tr>
+                  <td class="cart-close-next">
+                  <button class="modal-delete" type="button">Удалить</button>
+                  </td>
+                  <td class="cart-image-next"><img src="img/cart-cranberries.jpg" width="33" height="33" alt="мороженое"></td>
+                  <td class="cart-article-next">Клубничный пломбир с присыпкой из белого шоколада</td>
+                  <td class="cart-value-next">1,5</td>
+                  <td class="cart-dimension-next">кг</td>
+                  <td class="cart-operator-next">х</td>
+                  <td class="cart-cost-next">300</td>
+                  <td class="cart-ruble-next">руб.</td>
+                  <td class="cart-result-next">450</td>
+                  <td class="cart-ruble-total">руб.</td>
+                </tr>
+              </table>
+              	<p class="cart-total">Итого: <span>750</span> руб.</p>
+                <a class="button button-order" href="order.html">Оформить заказ</a>
+           </div>
+         </li>
 				</ul>
 			</div>
 			<div class="header-content">
@@ -132,40 +140,64 @@
          </fieldset>
 				<fieldset class="filter-fat">
 					<legend>Жирность:</legend>
-					<label>
-						<svg class="radio-on" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg>
-						<svg class="radio-off" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
-						<input class="filters-input" type="radio" name="fat" value="0%">0%
-					</label>
-					<label>
-						<svg class="radio-on" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg>
-						<svg class="radio-off" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
-						<input class="filters-input" type="radio" name="fat" value="до 10%" checked="">до 10%
-					</label>
-					<label>
-						<svg class="radio-on" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg>
-						<svg class="radio-off" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
-						<input class="filters-input" type="radio" name="fat" value="до 30%">до 30%
-					</label>
-					<label>
-						<svg class="radio-on" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg>
-						<svg class="radio-off" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
-						<input class="filters-input" type="radio" name="fat" value="выше 30%">выше 30%
-					</label>
+					<div class="fieldset-fat">
+						<label for="zer-field">
+							<svg class="radio-off" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
+							<svg class="radio-on" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg>
+							0%
+						</label>
+						<input class="visually-hidden fat-input" id="zer-field" type="radio" name="fat" value="0%">
+						<label for="ten-field">
+							<svg class="radio-off" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
+							<svg class="radio-on" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg>
+							до 10%
+						</label>
+						<input class="visually-hidden fat-input" id="ten-field" type="radio" name="fat" value="до 10%" checked>
+						<label for="thirty-field">
+							<svg class="radio-off" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
+							<svg class="radio-on" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg>
+							до 30%
+						</label>
+						<input class="visually-hidden fat-input" id="thirty-field" type="radio" name="fat" value="до 30%">
+						<label for="above-field">
+							<svg class="radio-off" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
+							<svg class="radio-on" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg>
+							выше 30%
+						</label>
+						<input class="visually-hidden fat-input" id="above-field" type="radio" name="fat" value="выше 30%">
+					</div>
 				</fieldset>
-				<fieldset>
+				<fieldset class="filler">
 					<legend>Наполнители:</legend>
-					<input class="filters-input" type="checkbox" name="filler-cocoa" id="filler-cocoa-field" checked="">
-					<label for="filler-cocoa-field">шоколадные</label>
-					<input class="filters-input" type="checkbox" name="filler-sugar" id="filler-sugar-field" checked="">
-					<label for="filler-sugar-field">сахарные присыпки</label>
-					<input class="filters-input" type="checkbox" name="filler-fruit" id="filler-fruit-field">
-					<label for="filler-fruit-field">фрукты</label>
-					<input class="filters-input" type="checkbox" name="filler-syrups" id="filler-syrups-field">
-					<label for="filler-syrups-field">сиропы</label>
-					<input class="filters-input" type="checkbox" name="filler-jams" id="filler-jams-field">
-					<label for="filler-jams-field">джемы</label>
+					<div class="fieldset-filler">
+						<input class="visually-hidden filters-input" type="checkbox" name="filler-cocoa" id="filler-cocoa-field" checked>
+						<label for="filler-cocoa-field">
+							<svg class="checkbox-off" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path fill="#FFFFFF" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+							<svg class="checkbox-on" xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#FFFFFF" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>шоколадные
+						</label>
+						<input class="visually-hidden filters-input" type="checkbox" name="filler-sugar" id="filler-sugar-field" checked>
+						<label for="filler-sugar-field">
+							<svg class="checkbox-off" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path fill="#FFFFFF" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+							<svg class="checkbox-on" xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#FFFFFF" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>сахарные присыпки
+						</label>
+						<input class="visually-hidden filters-input" type="checkbox" name="filler-fruit" id="filler-fruit-field">
+						<label for="filler-fruit-field">
+							<svg class="checkbox-off" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path fill="#FFFFFF" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+							<svg class="checkbox-on" xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#FFFFFF" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>фрукты
+						</label>
+						<input class="visually-hidden filters-input" type="checkbox" name="filler-syrups" id="filler-syrups-field">
+						<label for="filler-syrups-field">
+							<svg class="checkbox-off" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path fill="#FFFFFF" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+							<svg class="checkbox-on" xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#FFFFFF" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>сиропы
+						</label>
+						<input class="visually-hidden filters-input" type="checkbox" name="filler-jams" id="filler-jams-field">
+						<label for="filler-jams-field">
+							<svg class="checkbox-off" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path fill="#FFFFFF" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+							<svg class="checkbox-on" xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#FFFFFF" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>джемы
+						</label>
+					</div>
 				</fieldset>
+				<button class="main-form-button" type="submit">Применить</button>
 			</form>
 		</section>
 		<section class="catalog">
@@ -182,7 +214,7 @@
 							Сливочное с апельсиновым джемом и цитрусовой стружкой
 						</a>
 					</h3>
-						<a class="catalog-btn" href="#">Быстрый просмотр</a>
+						<a class="button catalog-btn" href="#">Быстрый просмотр</a>
 				</li>
 				<li class="catalog-item">
 					<div class="catalog-wrapper"></div>
@@ -195,7 +227,7 @@
 							Сливочно-кофейное с кусочками шоколада
 						</a>
 					</h3>
-						<a class="catalog-btn" href="#">Быстрый просмотр</a>
+						<a class="button catalog-btn" href="#">Быстрый просмотр</a>
 				</li>
 				<li class="catalog-item">
 					<div class="catalog-wrapper"></div>
@@ -208,7 +240,7 @@
 							Сливочно-клубничное с присыпкой из белого шоколада
 						</a>
 					</h3>
-						<a class="catalog-btn" href="#">Быстрый просмотр</a>
+						<a class="button catalog-btn" href="#">Быстрый просмотр</a>
 				</li>
 				<li class="catalog-item">
 					<div class="catalog-wrapper"></div>
@@ -221,7 +253,7 @@
 							Сливочное крем-брюле с карамельной подливкой
 						</a>
 					</h3>
-						<a class="catalog-btn" href="#">Быстрый просмотр</a>
+						<a class="button catalog-btn" href="#">Быстрый просмотр</a>
 				</li>
 				<li class="catalog-item">
 					<div class="catalog-wrapper"></div>
@@ -234,7 +266,7 @@
 							Сливочное с брусничным джемом
 						</a>
 					</h3>
-						<a class="catalog-btn" href="#">Быстрый просмотр</a>
+						<a class="button catalog-btn" href="#">Быстрый просмотр</a>
 				</li>
 				<li class="catalog-item">
 					<div class="catalog-wrapper"></div>
@@ -247,7 +279,7 @@
 							Сливочно-черничное с цельными ягодами черники
 						</a>
 					</h3>
-						<a class="catalog-btn" href="#">Быстрый просмотр</a>
+						<a class="button catalog-btn" href="#">Быстрый просмотр</a>
 				</li>
 				<li class="catalog-item">
 					<div class="catalog-wrapper"></div>
@@ -260,7 +292,7 @@
 							Сливочно-лимонное с карамельной присыпкой
 						</a>
 					</h3>
-						<a class="catalog-btn" href="#">Быстрый просмотр</a>
+						<a class="button catalog-btn" href="#">Быстрый просмотр</a>
 				</li>
 				<li class="catalog-item">
 					<div class="catalog-wrapper"></div>
@@ -273,7 +305,7 @@
 							Сливочное с шоколадной стружкой
 						</a>
 					</h3>
-						<a class="catalog-btn" href="#">Быстрый просмотр</a>
+						<a class="button catalog-btn" href="#">Быстрый просмотр</a>
 				</li>
 				<li class="catalog-item">
 					<div class="catalog-wrapper"></div>
@@ -286,7 +318,7 @@
 							Сливочно-ванильное с кусочками шоколада
 						</a>
 					</h3>
-						<a class="catalog-btn" href="#">Быстрый просмотр</a>
+						<a class="button catalog-btn" href="#">Быстрый просмотр</a>
 				</li>
 				<li class="catalog-item">
 					<div class="catalog-wrapper"></div>
@@ -299,7 +331,7 @@
 							Сливочное с ментоловым сиропом
 						</a>
 					</h3>
-						<a class="catalog-btn" href="#">Быстрый просмотр</a>
+						<a class="button catalog-btn" href="#">Быстрый просмотр</a>
 				</li>
 				<li class="catalog-item">
 					<div class="catalog-wrapper"></div>
@@ -312,7 +344,7 @@
 							Сливочное с кусочками черного шоколада
 						</a>
 					</h3>
-						<a class="catalog-btn" href="#">Быстрый просмотр</a>
+						<a class="button catalog-btn" href="#">Быстрый просмотр</a>
 				</li>
 				<li class="catalog-item">
 					<div class="catalog-wrapper"></div>
@@ -325,7 +357,7 @@
 							Сливочное с мятным сиропом
 						</a>
 					</h3>
-						<a class="catalog-btn" href="#">Быстрый просмотр</a>
+						<a class="button catalog-btn" href="#">Быстрый просмотр</a>
 				</li>
 			</ul>
 		</section>
