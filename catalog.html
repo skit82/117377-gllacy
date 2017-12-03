@@ -58,40 +58,40 @@
 					<li class="basket cart">
 						<a class="basket-item" href="#">2 товара</a>
 						<div class="cart-form">
-              <table>
-                <tr>
-                  <td class="cart-close-top">
-                  <button class="modal-delete" type="button">Удалить</button>
-                  </td>
-                  <td class="cart-image"><img src="img/cart-orange.jpg" width="33" height="33" alt="мороженое"></td>
-                  <td class="cart-article">Пломбир с апельсиновым джемом</td>
-                  <td class="cart-value">1,5</td>
-                  <td class="cart-dimension">кг</td>
-                  <td class="cart-operator">х</td>
-                  <td class="cart-cost">200</td>
-                  <td class="cart-ruble">руб.</td>
-                  <td class="cart-result">300</td>
-                  <td class="cart-ruble-total">руб.</td>
-                </tr>
-                <tr>
-                  <td class="cart-close-next">
-                  <button class="modal-delete" type="button">Удалить</button>
-                  </td>
-                  <td class="cart-image-next"><img src="img/cart-cranberries.jpg" width="33" height="33" alt="мороженое"></td>
-                  <td class="cart-article-next">Клубничный пломбир с присыпкой из белого шоколада</td>
-                  <td class="cart-value-next">1,5</td>
-                  <td class="cart-dimension-next">кг</td>
-                  <td class="cart-operator-next">х</td>
-                  <td class="cart-cost-next">300</td>
-                  <td class="cart-ruble-next">руб.</td>
-                  <td class="cart-result-next">450</td>
-                  <td class="cart-ruble-total">руб.</td>
-                </tr>
-              </table>
-              	<p class="cart-total">Итого: <span>750</span> руб.</p>
-                <a class="button button-order" href="order.html">Оформить заказ</a>
-           </div>
-         </li>
+							<table>
+								<tr>
+									<td class="cart-close-top">
+									<button class="modal-delete" type="button">Удалить</button>
+									</td>
+									<td class="cart-image"><img src="img/cart-orange.jpg" width="33" height="33" alt="мороженое"></td>
+									<td class="cart-article">Пломбир с апельсиновым джемом</td>
+									<td class="cart-value">1,5</td>
+									<td class="cart-dimension">кг</td>
+									<td class="cart-operator">х</td>
+									<td class="cart-cost">200</td>
+									<td class="cart-ruble">руб.</td>
+									<td class="cart-result">300</td>
+									<td class="cart-ruble-total">руб.</td>
+								</tr>
+								<tr>
+									<td class="cart-close-next">
+									<button class="modal-delete" type="button">Удалить</button>
+									</td>
+									<td class="cart-image-next"><img src="img/cart-cranberries.jpg" width="33" height="33" alt="мороженое"></td>
+									<td class="cart-article-next">Клубничный пломбир с присыпкой из белого шоколада</td>
+									<td class="cart-value-next">1,5</td>
+									<td class="cart-dimension-next">кг</td>
+									<td class="cart-operator-next">х</td>
+									<td class="cart-cost-next">300</td>
+									<td class="cart-ruble-next">руб.</td>
+									<td class="cart-result-next">450</td>
+									<td class="cart-ruble-total">руб.</td>
+								</tr>
+							</table>
+								<p class="cart-total">Итого: <span>750</span> руб.</p>
+								<a class="button button-order" href="order.html">Оформить заказ</a>
+					 </div>
+				 </li>
 				</ul>
 			</div>
 			<div class="header-content">
@@ -120,51 +120,51 @@
 					</select>
 				</fieldset>
 				<fieldset class="filter-cost">
-          <div class="cost-controls">
-            <label class="min-price">
-              Цена:
-            	<input type="text" value="100"> руб.
-            </label>
-            <label class="max-price">
-              –
-              <input type="text" value="500"> руб.
-            </label>
-          </div>
-          <div class="range-controls">
-            <div class="scale">
-              <div class="bar"></div>
-              <div class="toggle toggle-min"></div>
-              <div class="toggle toggle-max"></div>
-            </div>
-          </div>
-         </fieldset>
+					<div class="cost-controls">
+						<label class="min-price">
+							Цена:
+							<input type="text" value="100"> руб.
+						</label>
+						<label class="max-price">
+							–
+							<input type="text" value="500"> руб.
+						</label>
+					</div>
+					<div class="range-controls">
+						<div class="scale">
+							<div class="bar"></div>
+							<div class="toggle toggle-min"></div>
+							<div class="toggle toggle-max"></div>
+						</div>
+					</div>
+				 </fieldset>
 				<fieldset class="filter-fat">
 					<legend>Жирность:</legend>
 					<div class="fieldset-fat">
+						<input class="visually-hidden fat-input" id="zer-field" type="radio" name="fat" value="0%">
 						<label for="zer-field">
 							<svg class="radio-off" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
 							<svg class="radio-on" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg>
 							0%
 						</label>
-						<input class="visually-hidden fat-input" id="zer-field" type="radio" name="fat" value="0%">
+						<input class="visually-hidden fat-input" id="ten-field" type="radio" name="fat" value="до 10%" checked>
 						<label for="ten-field">
 							<svg class="radio-off" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
 							<svg class="radio-on" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg>
 							до 10%
 						</label>
-						<input class="visually-hidden fat-input" id="ten-field" type="radio" name="fat" value="до 10%" checked>
+						<input class="visually-hidden fat-input" id="thirty-field" type="radio" name="fat" value="до 30%">
 						<label for="thirty-field">
 							<svg class="radio-off" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
 							<svg class="radio-on" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg>
 							до 30%
 						</label>
-						<input class="visually-hidden fat-input" id="thirty-field" type="radio" name="fat" value="до 30%">
+						<input class="visually-hidden fat-input" id="above-field" type="radio" name="fat" value="выше 30%">
 						<label for="above-field">
 							<svg class="radio-off" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/></svg>
 							<svg class="radio-on" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25"><path fill="#FFFFFF" d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle fill="#FFFFFF" cx="12.5" cy="12.5" r="4.5"/></svg>
 							выше 30%
 						</label>
-						<input class="visually-hidden fat-input" id="above-field" type="radio" name="fat" value="выше 30%">
 					</div>
 				</fieldset>
 				<fieldset class="filler">

@@ -54,20 +54,20 @@ input[type="radio"].visually-hidden {
 	overflow: hidden;
 }
 .button:focus, .button:hover {
-  background-color: rgba(255,255,255,.2);
-  background: -webkit-gradient(linear,left top,right top,from(#f58669),to(#ec6f5e));
-  background: -webkit-linear-gradient(left,#f58669 0%,#ec6f5e 100%);
-  background: -o-linear-gradient(left,#f58669 0%,#ec6f5e 100%);
-  background: linear-gradient(90deg,#f58669 0%,#ec6f5e 100%);
-  box-shadow: 0 2px 2px 0 #ac1000;
+	background-color: rgba(255,255,255,.2);
+	background: -webkit-gradient(linear,left top,right top,from(#f58669),to(#ec6f5e));
+	background: -webkit-linear-gradient(left,#f58669 0%,#ec6f5e 100%);
+	background: -o-linear-gradient(left,#f58669 0%,#ec6f5e 100%);
+	background: linear-gradient(90deg,#f58669 0%,#ec6f5e 100%);
+	box-shadow: 0 2px 2px 0 #ac1000;
 }
 .button:active {
-  background: -webkit-gradient(linear,left top,right top,from(#d84732),to(#e1613e));
-  background: -webkit-linear-gradient(left,#d84732 0%,#e1613e 100%);
-  background: -o-linear-gradient(left,#d84732 0%,#e1613e 100%);
-  background: linear-gradient(90deg,#d84732 0%,#e1613e 100%);
-  -webkit-box-shadow: inset 0 2px 2px 0 #942718;
-  box-shadow: inset 0 2px 2px 0 #942718;
+	background: -webkit-gradient(linear,left top,right top,from(#d84732),to(#e1613e));
+	background: -webkit-linear-gradient(left,#d84732 0%,#e1613e 100%);
+	background: -o-linear-gradient(left,#d84732 0%,#e1613e 100%);
+	background: linear-gradient(90deg,#d84732 0%,#e1613e 100%);
+	-webkit-box-shadow: inset 0 2px 2px 0 #942718;
+	box-shadow: inset 0 2px 2px 0 #942718;
 }
 .container {
 	width: 1146px;
@@ -169,36 +169,36 @@ a.header-content-phone {
 }
 .new-items a {
 	display: block;
-  padding: 10px 20px;
-  text-decoration: none;
-  color: #323232;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #323232;
 }
 a.first-item {
 	position: relative;
-  padding-bottom: 16px;
-  font-weight: 700;
+	padding-bottom: 16px;
+	font-weight: 700;
 }
 a.first-item::before {
-  content: "";
-  position: absolute;
-  height: 1px;
-  width: 128px;
-  left: 8px;
-  bottom: 0;
-  background-color: rgba(129,129,129,.2);
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 128px;
+	left: 8px;
+	bottom: 0;
+	background-color: rgba(129,129,129,.2);
 }
 a.first-item:focus, a.first-item:hover,
 a.ice-item:focus, a.ice-item:hover,
 a.last-item:focus, a.last-item:hover {
-  background-color: #fbded7;
+	background-color: #fbded7;
 }
 a.first-item:active,
 a.ice-item:active,
 a.last-item:active {
-  background-color: #f6b5a5;
+	background-color: #f6b5a5;
 }
 .first-item:focus, .first-item:hover {
-  border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
 }
 .menu-navigation:hover .new-items {
 	display: block;
@@ -215,7 +215,7 @@ a.last-item:active {
 	display: none;
 	border-radius: 6px;
 	background-color: #f8f7f4;
-  z-index: 1;
+	z-index: 1;
 	box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);
 }
 .search-input {
@@ -231,32 +231,31 @@ a.last-item:active {
 	background-color: rgb(255, 255, 255);
 }
 .btn-search {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  top: -35px;
-  right: -2px;
-  fill: #000;
-  background-image: url(../img/loupe.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  border: 0;
-  border-radius: 50%;
-  color: transparent;
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: -35px;
+	right: -2px;
+	background-image: url(../img/loupe-black.svg);
+	background-repeat: no-repeat;
+	fill: #000000;
+	border: 0;
+	border-radius: 50%;
+	color: transparent;
 }
 .search-input:focus[placeholder="Что ищем?"] {
-  color: #000;
-  outline: 0;
-  border-color: #2e88e4;
+	color: #000;
+	outline: 0;
+	border-color: #2e88e4;
 }
 .login-link:focus, .login-link:hover,
 .search-link:focus, .search-link:hover {
-  color: #323232;
-  background-color: #f8f7f4;
+	color: #323232;
+	background-color: #f8f7f4;
 }
 .search-input:hover {
 	padding-left: 14px;
-  border-width: 2px;
+	border-width: 2px;
 }
 .search:hover .search-form {
 	display: block;
@@ -266,7 +265,8 @@ a.last-item:active {
 	background-image: url(../img/loupe-black.svg);
 	background-repeat: no-repeat;
 	background-position: center;
-	fill: #000;
+	fill: #000000;
+	z-index: 1;
 }
 .header-navigation,
 .user-navigation {
@@ -278,32 +278,31 @@ a.last-item:active {
 .search-link {
 	display: block;
 	width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: #a1b4a9;
+	height: 32px;
+	border-radius: 50%;
+	background-color: #a1b4a9;
 }
 .search-link::before {
 	content: "";
 	position: absolute;
-	left: 8px;
-	top: 8px;
+	left: 9px;
+	top: 9px;
 	width: 18px;
 	height: 18px;
 	background-image: url(../img/loupe.svg);
 	background-repeat: no-repeat;
-	background-position: 0 0;
 }
 .login-link {
 	width: 50px;
-  height: 32px;
-  line-height: 31px;
-  margin-left: 10px;
-  padding-top: 6px;
-  padding-bottom: 8px;
-  padding-left: 42px;
-  padding-right: 18px;
-  background-color: #a1b4a9;
-  border-radius: 16px;
+	height: 32px;
+	line-height: 31px;
+	margin-left: 10px;
+	padding-top: 6px;
+	padding-bottom: 8px;
+	padding-left: 42px;
+	padding-right: 18px;
+	background-color: #a1b4a9;
+	border-radius: 16px;
 	text-decoration: none;
 }
 .login-form {
@@ -314,58 +313,58 @@ a.last-item:active {
 	height: 197px;
 	display: none;
 	padding-top: 20px;
-  padding-left: 18px;
+	padding-left: 18px;
 	background-color: #f8f7f4;
 	border-radius: 6px;
-  box-shadow: 0 20px 20px 0 rgba(0,0,0,.4);
-  z-index: 1;
+	box-shadow: 0 20px 20px 0 rgba(0,0,0,.4);
+	z-index: 1;
 }
 .login-input, .password-input {
-  padding-left: 13px;
-  width: 228px;
-  height: 40px;
-  border-radius: 5px;
-  border: 1px solid #d3d3d2;
+	padding-left: 13px;
+	width: 228px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #d3d3d2;
 }
 .password-input {
-  margin-top: 20px;
-  margin-bottom: 12px;
+	margin-top: 20px;
+	margin-bottom: 12px;
 }
 .login-input[placeholder="Электронная почта"],
 .password-input[placeholder=Пароль] {
-  font-size: 14px;
-  font-weight: 600;
-  color: #000
+	font-size: 14px;
+	font-weight: 600;
+	color: #000
 }
 .btn-login {
-  height: 44px;
-  font-weight: 700;
-  text-align: center;
-  border-radius: 22px;
-  width: 100px;
-  font-size: 18px;
-  text-align: center;
-  color: #fff;
-  vertical-align: middle;
-  text-decoration: none;
-  background: linear-gradient(90deg,#e74a35 0%,#f26843 100%);
- 	box-shadow: 0 2px 2px 0 rgba(172,16,0,.64);
-  border: 0;
-  cursor: pointer;
+	height: 44px;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 22px;
+	width: 100px;
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	vertical-align: middle;
+	text-decoration: none;
+	background: linear-gradient(90deg,#e74a35 0%,#f26843 100%);
+	box-shadow: 0 2px 2px 0 rgba(172,16,0,.64);
+	border: 0;
+	cursor: pointer;
 }
 .btn-login, p.login-footer {
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 9px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 9px;
 }
 p.login-footer {
-  margin-left: 19px;
-  width: 125px;
-  font-size: 13px;
-  line-height: 20px;
+	margin-left: 19px;
+	width: 125px;
+	font-size: 13px;
+	line-height: 20px;
 }
 .login-footer a {
-  color: #323232;
+	color: #323232;
 }
 .login-link::before {
 	content: "";
@@ -381,14 +380,14 @@ p.login-footer {
 .login-input:focus[placeholder="Электронная почта"],
 .password-input:focus[placeholder=Пароль],
 .subscription-form input:focus[placeholder="Электронная почта"] {
-  color: #000;
-  outline: 0;
-  border-color: #2e88e4;
+	color: #000;
+	outline: 0;
+	border-color: #2e88e4;
 }
 .login-input:hover,
 .password-input:hover {
-  padding: 0 0 0 12px;
-  border-width: 2px;
+	padding: 0 0 0 12px;
+	border-width: 2px;
 }
 .login:hover .login-form {
 	display: block;
@@ -398,14 +397,14 @@ p.login-footer {
 }
 .basket-item {
 	display: block;
- 	padding-left: 42px;
-  width: 75px;
-  height: 32px;
-  line-height: 31px;
-  color: #fff;
-  text-decoration: none;
-  background-color: #a1b4a9;
-  border-radius: 16px;
+	padding-left: 42px;
+	width: 75px;
+	height: 32px;
+	line-height: 31px;
+	color: #fff;
+	text-decoration: none;
+	background-color: #a1b4a9;
+	border-radius: 16px;
 }
 .basket-item::before {
 	content: "";
@@ -419,15 +418,15 @@ p.login-footer {
 	background-position: 0 0;
 }
 .inner-page .basket-item::before {
-  content: "";
-  position: absolute;
-  left: 15px;
-  top: 7px;
-  width: 22px;
-  height: 20px;
-  background-image: url(../img/basket-red.svg);
-  background-repeat: no-repeat;
-  background-position: 0 0;
+	content: "";
+	position: absolute;
+	left: 15px;
+	top: 7px;
+	width: 22px;
+	height: 20px;
+	background-image: url(../img/basket-red.svg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 .inner-page .basket-item {
 	color: #323232;
@@ -438,11 +437,11 @@ p.login-footer {
 	right: -1px;
 	top: 35px;
 	padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 7px;
-  width: 508px;
-  height: 233px;
-  display: none;
+	padding-right: 16px;
+	padding-top: 7px;
+	width: 508px;
+	height: 233px;
+	display: none;
 	font-size: 13px;
 	line-height: 16px;
 	font-weight: normal;
@@ -459,9 +458,9 @@ p.login-footer {
 	vertical-align: top;
 }
 .cart-form table {
-  border-collapse: collapse;
-  table-layout: fixed;
-  border-bottom: 1px solid #cacac7;
+	border-collapse: collapse;
+	table-layout: fixed;
+	border-bottom: 1px solid #cacac7;
 }
 .cart-close-top {
 	width: 10px;
@@ -472,21 +471,21 @@ p.login-footer {
 	padding-top: 32px;
 }
 .modal-delete {
-  display: block;
-  width: 11px;
-  height: 11px;
-  font-size: 0;
-  border: 0;
-  cursor: pointer;
-  background-image: url(../img/cross-small.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+	display: block;
+	width: 11px;
+	height: 11px;
+	font-size: 0;
+	border: 0;
+	cursor: pointer;
+	background-image: url(../img/cross-small.svg);
+	background-position: center;
+	background-repeat: no-repeat;
 }
 td.cart-image {
-  padding-top: 20px;
-  padding-left: 15px;
-  vertical-align: top;
-  width: 33px;
+	padding-top: 20px;
+	padding-left: 15px;
+	vertical-align: top;
+	width: 33px;
 }
 td.cart-image-next {
 	width: 33px;
@@ -538,30 +537,31 @@ td.cart-ruble-total {
 	padding-top: 30px;
 }
 p.cart-total {
-  margin-top: 15px;
-  text-align: right;
-  font-size: 15px;
-  font-weight: 700;
+	margin-top: 15px;
+	text-align: right;
+	font-size: 15px;
+	font-weight: 700;
 }
 .button-order {
-  display: block;
-  margin-top: -7px;
-  margin-left: auto;
-  width: 170px;
-  height: 44px;
-  border-radius: 22px;
-  font-size: 18px;
-  line-height: 40px;
-  font-weight: 700;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  background: linear-gradient(90deg,#e74a35 0%,#f26843 100%);
- 	box-shadow: 0 2px 2px 0 rgba(172,16,0,.64);
-  border: 0;
-  cursor: pointer;
+	display: block;
+	margin-top: -7px;
+	margin-left: auto;
+	width: 170px;
+	height: 44px;
+	border-radius: 22px;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: 700;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	background: linear-gradient(90deg,#e74a35 0%,#f26843 100%);
+	box-shadow: 0 2px 2px 0 rgba(172,16,0,.64);
+	border: 0;
+	cursor: pointer;
 }
-.cart:hover .cart-form {
+.cart:hover .cart-form,
+.modal-name-show {
 	display: block;
 }
 a.catalog-menu,
@@ -724,11 +724,11 @@ body > input[type="radio"] {
 }
 .banner p {
 	font-size: 18px;
-  font-weight: 700;
-  width: 514px;
-  margin: 0px;
-  margin-top: 16px;
-  margin-left: 17px;
+	font-weight: 700;
+	width: 514px;
+	margin: 0px;
+	margin-top: 16px;
+	margin-left: 17px;
 }
 .banner-item-one,
 .banner-item-two {
@@ -875,9 +875,9 @@ body > input[type="radio"] {
 	border-radius: 10px;
 	background-image: url(../img/bg-wafer.jpg);
 	background-position: center;
-  background-repeat: repeat;
-  background-color: #d9cdb5;
-  border-radius: 15px;
+	background-repeat: repeat;
+	background-color: #d9cdb5;
+	border-radius: 15px;
 	margin-bottom: 40px;	
 }
 .promo-new {
@@ -900,8 +900,8 @@ body > input[type="radio"] {
 	box-sizing: border-box;
 	margin: 0px;
 	padding-top: 23px;
-  padding-left: 77px;
-  width: 555px;
+	padding-left: 77px;
+	width: 555px;
 }
 .promo-item .purchase,
 .promo-item .transportation {
@@ -981,18 +981,18 @@ body > input[type="radio"] {
 }
 .info-service {
 	display: block;
-  width: 285px;
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: bold;
-  padding-left: 18px;
-  padding-top: 4px;
-  color: #323232;
+	width: 285px;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	padding-left: 18px;
+	padding-top: 4px;
+	color: #323232;
 }
 .blog a:active,
 .blog a:focus,
 .blog a:hover {
-  color: #e84d37;
+	color: #e84d37;
 }
 .mail-list {
 	font-size: 16px;
@@ -1097,14 +1097,14 @@ body > input[type="radio"] {
 	background-repeat: no-repeat;
 }
 .pin {
-  position: absolute;
-  left: 261px;
-  top: 128px;
-  width: 90px;
-  height: 150px;
-  background-image: url(../img/pin.svg);
-  background-repeat: no-repeat;
-  background-position: bottom;
+	position: absolute;
+	left: 261px;
+	top: 128px;
+	width: 90px;
+	height: 150px;
+	background-image: url(../img/pin.svg);
+	background-repeat: no-repeat;
+	background-position: bottom;
 }
 .address {
 	position: absolute;
@@ -1257,8 +1257,7 @@ fieldset.sorting-filter {
 .sorting-select:focus, .sorting-select:hover {
 	color: #323232;
 	background-color: #fff;
-	background-image: url(../img/select-arrow.svg);
-	fill: #000;
+	background-image: url(../img/select-black.svg);
 }
 fieldset.filter-cost, fieldset.filter-fat {
 	padding: 0;
@@ -1343,33 +1342,31 @@ fieldset.filter-fat {
 }
 .fieldset-fat {
 	height: 37px;
-  border-radius: 19px;
-  background-color: #a9bab0;
-  display: flex;
-  align-items: center;
+	border-radius: 19px;
+	background-color: #a9bab0;
+	display: flex;
+	align-items: center;
 }
-.fat-input {
-	margin-left: 30px;
-}
+
 .fieldset-fat label, .fieldset-filler label {
-  position: relative;
-  margin-left: 49px;
-  cursor: pointer;
+	position: relative;
+	margin-left: 49px;
+	cursor: pointer;
 }
 .fieldset-fat .radio-off,
 .fieldset-fat .radio-on {
 	position: absolute;
 	width: 25px;
-  height: 25px;
-  left: -34px;
-  bottom: -2px;
+	height: 25px;
+	left: -34px;
+	bottom: -2px;
 	opacity: 0;
 }
 .fat-input+label .radio-off {
-  opacity: .8;
+	opacity: .8;
 }
 .fat-input:checked+label .radio-on {
-  opacity: .8;
+	opacity: .8;
 }
 .filler {
 	width: 702px;
@@ -1377,8 +1374,8 @@ fieldset.filter-fat {
 	padding: 0px;
 }
 .filler legend {
-  padding-top: 16px;
-  padding-bottom: 7px;
+	padding-top: 16px;
+	padding-bottom: 7px;
 }
 .fieldset-filler {
 	display: flex;
@@ -1386,19 +1383,19 @@ fieldset.filter-fat {
 	height: 37px;
 	margin: 0px;
 	padding: 0px;
-  border-radius: 19px;
-  background-color: #a9bab0;
+	border-radius: 19px;
+	background-color: #a9bab0;
 }
 .fieldset-filler .checkbox-on {
-  width: 27px;
+	width: 27px;
 }
 .fieldset-filler .checkbox-off,
 .fieldset-filler .checkbox-on {
 	position: absolute;
-  height: 25px;
-  left: -34px;
-  bottom: -2px;
-  opacity: 0;
+	height: 25px;
+	left: -34px;
+	bottom: -2px;
+	opacity: 0;
 }
 .filters-input+label .checkbox-off {
 	opacity: .8;
@@ -1407,35 +1404,20 @@ fieldset.filter-fat {
 	opacity: .8;
 }
 .main-form-button {
-  margin-top: 38px;
-  margin-left: 15px;
-  width: 144px;
-  height: 37px;
-  color: inherit;
-  font-size: 16px;
-  border-radius: 20px;
-  border: 2px solid #fff;
-  background-color: #9cb0a4;
-  cursor: pointer;
+	margin-top: 38px;
+	margin-left: 15px;
+	width: 144px;
+	height: 37px;
+	color: inherit;
+	font-size: 16px;
+	border-radius: 20px;
+	border: 2px solid #fff;
+	background-color: #9cb0a4;
+	cursor: pointer;
 }
 .main-form-button:focus, .main-form-button:hover {
-  color: #323232;
-  background-color: #fff;
-}
-.visually-hidden:not(:focus):not(:active),
-input[type=checkbox] .visually-hidden,
-input[type=radio].visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  -webkit-clip-path: inset(100%);
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+	color: #323232;
+	background-color: #fff;
 }
 .pagination {
 	display: flex;
@@ -1556,24 +1538,131 @@ a.social-button:focus, a.social-button:hover {
 	line-height: 18px;
 	font-weight: normal;
 }
-.modal {
-	display: none;
-	color: #999999;	
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.3);
+  z-index: 33;
 }
-.modal h2 {
+.modal-name {
+  position: fixed;
+  display: none;
+  padding-top: 19px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 428px;
+  height: 424px;
+  top: 328px;
+  left: 394px;
+  border-radius: 10px;
+  color: #323232;
+  background-color: #f8f7f4;
+  z-index: 33;
+}
+.modal-name h2 {
+	margin: 0px;
 	font-size: 24px;
 	line-height: 28px;
 	color: #323232;
 	font-weight: 600;
 }
-.name-form .name-icon-user,
-.name-form .name-icon-email,
-.name-form textarea {
-	font-size: 16px;
-	line-height: 24px;
-	font-weight: normal;
-	color: #999999;
-	border-radius: 5px;
-	border: 1px solid rgba(178, 178, 178, 0.52);
+.modal-form {
+  position: relative;
+  padding-top: 22px;
 }
-
+.modal-email[placeholder="Ваша почта для ответа?"],
+.modal-user[placeholder="Как вас зовут?"] {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+.modal-email {
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+.modal-email,
+.modal-user {
+  padding-left: 15px;
+  width: 252px;
+  height: 40px;
+  margin: 0px;
+  color: #999;
+  border-radius: 5px;
+  border: 1px solid #b2b2b2;
+}
+.message-textarea[placeholder="Напишите что-нибудь..."] {
+ 	font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+.message-textarea {
+  padding-top: 12px;
+  padding-left: 12px;
+  width: 412px;
+  height: 140px;
+  color: #999;
+  border-radius: 5px;
+  border: 1px solid #b2b2b2;
+  resize: none;
+}
+.modal-btn {
+  display: block;
+  margin-top: 19px;
+  margin-left: auto;
+  width: 139px;
+  height: 44px;
+  border-radius: 22px;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+  text-decoration: none;
+  background: -webkit-gradient(linear,left top,right top,from(#e74a35),to(#f26843));
+  background: -webkit-linear-gradient(left,#e74a35 0%,#f26843 100%);
+  background: -o-linear-gradient(left,#e74a35 0%,#f26843 100%);
+  background: linear-gradient(90deg,#e74a35 0%,#f26843 100%);
+  -webkit-box-shadow: 0 2px 2px 0 rgba(172,16,0,.64);
+  box-shadow: 0 2px 2px 0 rgba(172,16,0,.64);
+  border: 0;
+  cursor: pointer;
+}
+.modal-close {
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 17px;
+  top: 15px;
+  right: 15px;
+  font-size: 0;
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: url(../img/cross-big.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.modal-email:focus[placeholder="Ваша почта для ответа?"],
+.modal-user:focus[placeholder="Как вас зовут?"] {
+  color: #000;
+  outline: 0;
+  border-color: #2e88e4;
+}
+.modal-email:hover,
+.modal-user:hover {
+  padding: 0 0 0 14px;
+  border-width: 2px;
+}
+.message-textarea:focus[placeholder="Напишите что-нибудь..."] {
+  color: #000;
+  outline: 0;
+  border-radius: 5px;
+  border-color: #2e88e4;
+}
+.message-textarea:hover {
+  padding-top: 11px;
+  padding-left: 11px;
+  border-width: 2px;
+}

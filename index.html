@@ -282,25 +282,24 @@
 					</div>
 			</footer>
 		</div>
-		<div class="modal-overlay"></div>
-			<div class="modal modal-name">
+		<div class="modal-overlay modal-overlay-show"></div>
+			<div class="modal-name modal-name-show">
 				<h2>Мы обязательно вам ответим!</h2>
-				<form class="name-form" action="https://echo.htmlacademy.ru" method="post">
+				<form class="modal-form" action="https://echo.htmlacademy.ru" method="post">
 					<p>
 						<label for="name-field"></label>
-						<input class="name-icon-user" type="text" name="name" id="name-field" placeholder="Как вас зовут?">
+						<input class="modal-user" type="text" name="name" id="name-field" placeholder="Как вас зовут?">
 					</p>
 					<p>
 						<label for="email-field"></label>
-						<input class="name-icon-email" type="email" name="email-mail" id="email-mail-field" placeholder="Ваша почта для ответа?">
+						<input class="modal-email" type="email" name="email-mail" id="email-mail-field" placeholder="Ваша почта для ответа?">
 					</p>
 					<p>
 						<label for="comment-field"></label>
-						<textarea name="comment" id="comment-field" rows="10">
-							 Напишите что-нибудь...
+						<textarea class="message-textarea" name="comment" id="comment-field" rows="10">Напишите что-нибудь...
 						</textarea>
 					</p>
-					<button class="button" type="submit">
+					<button class="button modal-btn" type="submit">
 						Отправить
 					</button>
 				</form>
