@@ -238,6 +238,8 @@ a.last-item:active {
 	right: -2px;
 	background-image: url(../img/loupe-black.svg);
 	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #f8f7f4;
 	fill: #000000;
 	border: 0;
 	border-radius: 50%;
@@ -259,14 +261,6 @@ a.last-item:active {
 }
 .search:hover .search-form {
 	display: block;
-}
-.search-link:focus,
-.search-link:hover {
-	background-image: url(../img/loupe-black.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	fill: #000000;
-	z-index: 1;
 }
 .header-navigation,
 .user-navigation {
@@ -291,6 +285,7 @@ a.last-item:active {
 	height: 18px;
 	background-image: url(../img/loupe.svg);
 	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 .login-link {
 	width: 50px;
@@ -352,6 +347,7 @@ a.last-item:active {
 	border: 0;
 	cursor: pointer;
 }
+
 .btn-login, p.login-footer {
 	display: inline-block;
 	vertical-align: top;
