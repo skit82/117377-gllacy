@@ -139,6 +139,11 @@ a.header-content-phone {
 	height: 64px;
 	margin: 0px;
 }
+.catalog-menu-current {
+	text-decoration: none;
+	border-radius: 30px;
+	background-color: #d07058;
+}
 .site-navigation .menu-navigation {
 	position: relative;
 }
@@ -199,6 +204,11 @@ a.last-item:active {
 }
 .first-item:focus, .first-item:hover {
 	border-radius: 5px 5px 0 0;
+}
+.new-items .item-current,
+.new-items .item-current {
+	color: #fff;
+	background-color: #d07058;
 }
 .menu-navigation:hover .new-items {
 	display: block;
@@ -302,7 +312,7 @@ a.last-item:active {
 }
 .login-form {
 	position: absolute;
-	right: 13px;
+	right: 3px;
 	top: 35px;
 	width: 259px;
 	height: 197px;
@@ -1236,6 +1246,11 @@ fieldset.sorting-filter {
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
+}
+select.sorting-filter {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 .sorting-select {
 	padding-top: 4px;
